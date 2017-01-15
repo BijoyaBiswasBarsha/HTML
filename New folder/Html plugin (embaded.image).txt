@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<embed src="Teady.jpeg">
+
+</body>
+</html>
