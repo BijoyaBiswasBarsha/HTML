@@ -1,0 +1,405 @@
+HTML is a markup language for describing web documents (web pages).
+
+HTML stands for Hyper Text Markup Language
+A markup language is a set of markup tags
+HTML documents are described by HTML tags
+Each HTML tag describes different document content
+
+
+
+
+
+
+
+Example Explained
+The <!DOCTYPE html> declaration defines this document to be HTML5
+The text between <html> and </html> describes an HTML document
+The text between <head> and </head> provides information about the document
+The text between <title> and </title> provides a title for the document
+The text between <body> and </body> describes the visible page content
+The text between <h1> and </h1> describes a heading
+The text between <p> and </p> describes a paragraph
+Using this description, a web browser will display a document with a heading and a paragraph.
+
+
+
+
+
+HTML Documents
+All HTML documents must start with a document type declaration: <!DOCTYPE html>.
+
+The HTML document itself begins with <html> and ends with </html>.
+
+The visible part of the HTML document is between <body> and </body>.
+
+
+
+
+Chapter Summary
+Use the style attribute for styling HTML elements
+Use background-color for background color
+Use color for text colors
+Use font-family for text fonts
+Use font-size for text sizes
+Use text-align for text alignment
+
+
+
+
+Tag	Description
+<abbr>	Defines an abbreviation or acronym
+<address>	Defines contact information for the author/owner of a document
+<bdo>	Defines the text direction
+<blockquote>	Defines a section that is quoted from another source
+<cite>	Defines the title of a work
+<q>	Defines a short inline quotation
+
+
+
+HTML Computer Code Elements
+Tag	Description
+<code>	Defines programming code
+<kbd>	Defines keyboard input 
+<samp>	Defines computer output
+<var>	Defines a variable
+<pre>	Defines preformatted text
+
+
+
+
+
+
+Chapter Summary
+Use the HTML <img> element to define an image
+Use the HTML src attribute to define the URL of the image
+Use the HTML alt attribute to define an alternate text for an image, if it cannot be displayed
+Use the HTML width and height attributes to define the size of the image
+Use the CSS width and height properties to define the size of the image (alternatively)
+Use the CSS float property to let the image float
+Use the HTML <map> element to define an image-map
+Use the HTML <area> element to define the clickable areas in the image-map
+Use the HTML <img>'s element usemap attribute to point to an image-map
+
+
+
+
+
+HTML Image Tags
+Tag	Description
+<img>	Defines an image
+<map>	Defines an image-map
+<area>	Defines a clickable area inside an image-map
+
+
+
+
+
+HTML Table Tags
+Tag	Description
+<table>	Defines a table
+<th>	Defines a header cell in a table
+<tr>	Defines a row in a table
+<td>	Defines a cell in a table
+<caption>	Defines a table caption
+<colgroup>	Specifies a group of one or more columns in a table for formatting
+<col>	Specifies column properties for each column within a <colgroup> element
+<thead>	Groups the header content in a table
+<tbody>	Groups the body content in a table
+<tfoot>	Groups the footer content in a table
+
+
+
+
+
+
+
+
+
+Chapter Summary
+Use the HTML <table> element to define a table
+Use the HTML <tr> element to define a table row
+Use the HTML <td> element to define a table data
+Use the HTML <th> element to define a table heading
+Use the HTML <caption> element to define a table caption
+Use the CSS border property to define a border
+Use the CSS border-collapse property to collapse cell borders
+Use the CSS padding property to add padding to cells
+Use the CSS text-align property to align cell text
+Use the CSS border-spacing property to set the spacing between cells
+Use the colspan attribute to make a cell span many columns
+Use the rowspan attribute to make a cell span many rows
+Use the id attribute to uniquely define one table
+
+
+
+
+
+HTML Style Tags
+Tag	Description
+<style>	Defines style information for an HTML document
+<link>	Defines a link between a document and an external resource
+
+
+
+
+
+
+
+Chapter Summary
+Use the HTML style attribute for inline styling
+Use the HTML <style> element to define internal CSS
+Use the HTML <link> element to refer to an external CSS file
+Use the HTML <head> element to store <style> and <link> elements
+Use the CSS color property for text colors
+Use the CSS font-family property for text fonts
+Use the CSS font-size property for text sizes
+Use the CSS border property for borders
+Use the CSS padding property for space inside the border
+Use the CSS margin property for space outside the border
+
+
+
+
+
+
+Styling HTML with CSS
+CSS stands for Cascading Style Sheets.
+
+CSS describes how HTML elements are to be displayed on screen, paper, or in other media.
+
+CSS saves a lot of work. It can control the layout of multiple web pages all at once.
+
+CSS can be added to HTML elements in 3 ways:
+
+Inline - by using the style attribute in HTML elements
+Internal - by using a <style> element in the <head> section
+External - by using an external CSS file
+The most common way to add CSS, is to keep the styles in separate CSS files. However, here we will use inline and internal styling, because this is easier to demonstrate, and easier for you to try it yourself.
+
+
+
+
+Chapter Summary
+Use the <a> element to define a link
+Use the href attribute to define the link address
+Use the target attribute to define where to open the linked document
+Use the <img> element (inside <a>) to use an image as a link
+Use the id attribute (id="value") to define bookmarks in a page
+Use the href attribute (href="#value") to link to the bookmark
+
+
+
+
+HTML Links - The target Attribute
+The target attribute specifies where to open the linked document.
+
+The target attribute can have one of the following values:
+
+_blank - Opens the linked document in a new window or tab
+_self - Opens the linked document in the same window/tab as it was clicked (this is default)
+_parent - Opens the linked document in the parent frame
+_top - Opens the linked document in the full body of the window
+framename - Opens the linked document in a named frame
+
+
+
+
+HTML Links - Colors
+When you move the mouse over a link, two things will normally happen:
+
+The mouse arrow will turn into a little hand
+The color of the link element will change
+By default, a link will appear like this (in all browsers):
+
+An unvisited link is underlined and blue
+A visited link is underlined and purple
+An active link is underlined and red
+You can change the default colors, by using styles:
+
+
+
+HTML List Tags
+Tag	Description
+<ul>	Defines an unordered list
+<ol>	Defines an ordered list
+<li>	Defines a list item
+<dl>	Defines a description list
+<dt>	Defines the term in a description list
+<dd>	Defines the description in a description list
+
+
+
+
+Chapter Summary
+Use the HTML <ul> element to define an unordered list
+Use the CSS list-style-type property to define the list item marker
+Use the HTML <ol> element to define an ordered list
+Use the HTML type attribute to define the numbering type
+Use the HTML <li> element to define a list item
+Use the HTML <dl> element to define a description list
+Use the HTML <dt> element to define the description term
+Use the HTML <dd> element to define the description data
+Lists can be nested inside lists
+List items can contain other HTML elements
+Use the CSS property float:left or display:inline to display a list horizontally
+
+
+
+HTML Grouping Tags
+Tag	Description
+<div>	Defines a section in a document (block-level)
+<span>	Defines a section in a document (inline)
+
+
+
+Block-level Elements
+A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).
+
+The <div> element is a block-level element.
+Examples of block-level elements:
+
+<div>
+<h1> - <h6>
+<p>
+<form>
+Inline Elements
+An inline element does not start on a new line and only takes up as much width as necessary.
+
+This is an inline <span> element inside a paragraph.
+
+Examples of inline elements:
+
+<span>
+<a>
+<img>
+The <div> Element
+The <div> element is often used as a container for other HTML elements.
+
+The <div> element has no required attributes, but both style and class are common.
+
+When used together with CSS, the <div> element can be used to style blocks of content:
+
+
+
+The <span> Element
+The <span> element is often used as a container for some text.
+
+The <span> element has no required attributes, but both style and class are common.
+
+When used together with CSS, the <span> element can be used to style parts of the text:
+
+
+
+HTML Script Tags
+Tag	Description
+<script>	Defines a client-side script
+<noscript>	Defines an alternate content for users that do not support client-side scripts
+
+
+
+The HTML <script> Tag
+The <script> tag is used to define a client-side script (JavaScript).
+
+The <script> element either contains scripting statements, or it points to an external script file through the src attribute.
+
+Common uses for JavaScript are image manipulation, form validation, and dynamic changes of content.
+
+This JavaScript example writes "Hello JavaScript!" into an HTML element with id="demo":
+
+
+
+
+
+The HTML <head> Element
+The <head> element is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag.
+
+HTML metadata is data about the HTML document. Metadata is not displayed.
+
+Metadata typically define the document title, character set, styles, links, scripts, and other meta information.
+
+The following tags describe metadata: <title>, <style>, <meta>, <link>, <script>, and <base>.
+
+The HTML <title> Element
+The <title> element defines the title of the document, and is required in all HTML/XHTML documents.
+
+The <title> element:
+
+defines a title in the browser tab
+provides a title for the page when it is added to favorites
+displays a title for the page in search engine results
+
+
+
+
+
+
+
+
+HTML head Elements
+Tag	Description
+<head>	Defines information about the document
+<title>	Defines the title of a document
+<base>	Defines a default address or a default target for all links on a page
+<link>	Defines the relationship between a document and an external resource
+<meta>	Defines metadata about an HTML document
+<script>	Defines a client-side script
+<style>	Defines style information for a document
+
+
+
+
+What is Responsive Web Design?
+Responsive Web Design makes your web page look good on all devices (desktops, tablets, and phones).
+
+Responsive Web Design is about using CSS and HTML to resize, hide, shrink, enlarge, or move the content to make it look good on any screen:
+
+
+
+Using W3.CSS
+Another way to create a responsive design, is to use a responsive style sheet, like W3.CSS
+
+W3.CSS makes it easy to develop sites that look nice at any size; desktop, laptop, tablet, or phone:
+
+
+
+
+HTML Form Elements
+= new in HTML5.
+
+Tag	Description
+<form>	Defines an HTML form for user input
+<input>	Defines an input control
+<textarea>	Defines a multiline input control (text area)
+<label>	Defines a label for an <input> element
+<fieldset>	Groups related elements in a form
+<legend>	Defines a caption for a <fieldset> element
+<select>	Defines a drop-down list
+<optgroup>	Defines a group of related options in a drop-down list
+<option>	Defines an option in a drop-down list
+<button>	Defines a clickable button
+<datalist>	Specifies a list of pre-defined options for input controls
+<keygen>	Defines a key-pair generator field (for forms)
+<output>	Defines the result of a calculation
+
+
+
+
+Input Restrictions
+Here is a list of some common input restrictions (some are new in HTML5):
+
+Attribute	Description
+disabled	Specifies that an input field should be disabled
+max	         Specifies the maximum value for an input field
+maxlength	 Specifies the maximum number of character for an input field
+min	        Specifies the minimum value for an input field
+pattern	        Specifies a regular expression to check the input value against
+readonly	Specifies that an input field is read only (cannot be changed)
+required	Specifies that an input field is required (must be filled out)
+size	        Specifies the width (in characters) of an input field
+step	        Specifies the legal number intervals for an input field
+value	        Specifies the default value for an input field
+
+
+
+
+
